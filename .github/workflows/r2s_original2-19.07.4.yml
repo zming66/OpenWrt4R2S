@@ -121,7 +121,7 @@ jobs:
           git clone -b master --single-branch https://github.com/kongfl888/luci-app-adguardhome.git
           mv luci-app-adguardhome friendlywrt-rk3328/friendlywrt/package
           mkdir -p friendlywrt-rk3328/friendlywrt/package/adguardhome && cd friendlywrt-rk3328/friendlywrt/package/adguardhome
-          wget https://raw.githubusercontent.com/Lienol/openwrt/dev-19.07/package/diy/adguardhome/Makefile
+          wget https://github.com/Lienol/openwrt/blob/19.07/package/diy/adguardhome/Makefile
 
       - name: Add luci-app-koolproxyR
         run: |
