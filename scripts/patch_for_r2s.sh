@@ -25,7 +25,7 @@ if [ ! -z "${1}" ];then
     esac
 fi
 
-cd friendlywrt-rk3328
+cd openwrt
 cd kernel/
 
 # cpu overclocking
